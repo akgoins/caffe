@@ -1,4 +1,5 @@
 PROJECT := caffe
+USE_CUDNN := 1
 
 CONFIG_FILE := Makefile.config
 # Explicitly check for the config file, otherwise make -k will proceed anyway.
